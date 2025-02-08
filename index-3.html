@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conciergerie Étoilée - Locations de vacances à Hyères et services de conciergerie premium</title>
+  <meta name="description" content="Réservez des locations de vacances de luxe à Hyères avec Conciergerie Étoilée. Villas, appartements et maisons de charme avec services de conciergerie sur mesure. Meilleurs prix garantis !">
+  <meta name="keywords" content="location de vacances Hyères, villas de luxe, appartements vue mer, conciergerie premium, services personnalisés, réservation en ligne, vacances Méditerranée, hébergements Hyères, séjour tout confort, gestion locative Hyères">
+  <meta property="og:title" content="Conciergerie Étoilée - Locations de vacances à Hyères">
+  <meta property="og:description" content="Découvrez nos hébergements de rêve à Hyères avec services de conciergerie premium. Réservez en ligne et profitez d'une expérience inoubliable.">
+  <meta property="og:image" content="https://source.unsplash.com/1600x900/?luxury,vacation">
+  <meta property="og:url" content="https://www.conciergerie-etoilee.com">
+  <link rel="canonical" href="https://www.conciergerie-etoilee.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #eef7fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: url('https://source.unsplash.com/1600x900/?beach,vacation') no-repeat center center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      font-size: 3em;
+      font-family: 'Playfair Display', serif;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    nav {
+      background-color: #0077b6;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #00b4d8;
+      color: white;
+    }
+
+    .hero-banner {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 12px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .hero-banner h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      background-color: #ffffff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      margin-top: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .listing {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .listing:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+      color: #0077b6;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1.2em;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 15px;
+      background-color: #0077b6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1.1em;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #00b4d8;
+      transform: scale(1.05);
+    }
+
+    .calendar {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="hero-banner">
+      <h1>Conciergerie Étoilée</h1>
+      <p>Vos vacances de rêve à Hyères commencent ici</p>
+      <a href="#" onclick="showPage('pricing')" class="btn">Voir les disponibilités</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#" onclick="showPage('home')">Accueil</a>
+    <a href="#" onclick="showPage('locations')">Locations & Conciergerie</a>
+    <a href="#" onclick="showPage('pricing')">Tarifs & Disponibilités</a>
+    <a href="#" onclick="showPage('about')">Qui sommes-nous ?</a>
+  </nav>
+
+  <div class="content" id="home">
+    <h2>Nos biens en location</h2>
+    <p>Bienvenue à la <strong>Conciergerie Étoilée</strong>, votre partenaire pour des <strong>locations de vacances de luxe à Hyères</strong>. Découvrez nos <strong>villas contemporaines</strong>, <strong>appartements avec vue panoramique</strong>, et <strong>maisons de charme</strong> soigneusement sélectionnés pour vous offrir des <strong>vacances inoubliables</strong>. Réservez dès maintenant et profitez de notre <strong>service de conciergerie premium</strong> pour un séjour sur-mesure.</p>
+    <a href="#" onclick="showPage('pricing')" class="btn">Réservez votre séjour</a>
+  </div>
+
+  <div class="content hidden" id="locations">
+    <h2>Le principe des locations de vacances</h2>
+    <p>Nos <strong>locations de vacances à Hyères</strong> allient <strong>confort moderne</strong>, <strong>emplacements de rêve</strong> et <strong>services personnalisés</strong>. Que vous recherchiez un <strong>séjour romantique</strong>, des <strong>vacances en famille</strong> ou un <strong>voyage entre amis</strong>, nous avons l'hébergement idéal pour vous.</p>
+
+    <h2>Conciergerie pour les propriétaires</h2>
+    <p>Vous êtes propriétaire ? Confiez-nous la gestion de votre bien et bénéficiez de notre <strong>conciergerie sur mesure</strong> : <strong>accueil des locataires</strong>, <strong>nettoyage professionnel</strong> et <strong>optimisation de vos réservations</strong>. Augmentez vos revenus locatifs sans effort !</p>
+  </div>
+
+  <div class="content hidden" id="pricing">
+    <h2>Tarifs et Disponibilités</h2>
+    <p>Réservez directement sur notre site pour bénéficier des <strong>meilleurs tarifs garantis</strong> et de nos <strong>offres exclusives</strong>. Consultez les <strong>disponibilités en temps réel</strong> et profitez de <strong>réductions pour les réservations anticipées</strong>.</p>
+    <div id="listings"></div>
+  </div>
+
+  <div class="content hidden" id="about">
+    <h2>Qui sommes-nous ?</h2>
+    <p><strong>Cindy</strong>, fondatrice de la <strong>Conciergerie Étoilée</strong>, met son expertise de plus de 17 ans dans l'immobilier au service de votre satisfaction. Avec son œil pour les détails et sa passion pour le service client, elle garantit des <strong>expériences de vacances exceptionnelles</strong>.</p>
+    <p><strong>Anaïs</strong>, responsable de la logistique, veille à ce que chaque séjour se déroule parfaitement, de l'<strong>accueil des locataires</strong> au <strong>nettoyage méticuleux</strong> des propriétés. Ensemble, nous créons des séjours mémorables pour chaque client.</p>
+  </div>
+
+  <script>
+    function showPage(pageId) {
+      const pages = document.querySelectorAll('.content');
+      pages.forEach(page => page.classList.add('hidden'));
+      document.getElementById(pageId).classList.remove('hidden');
+    }
+
+    function generateListings() {
+      const listingsContainer = document.getElementById('listings');
+      for (let i = 1; i <= 15; i++) {
+        const listing = document.createElement('div');
+        listing.className = 'listing';
+        listing.innerHTML = `<h3>Bien ${i} - Évasion garantie</h3>
+          <p><strong>Confort haut de gamme</strong>, <strong>vue exceptionnelle</strong>, et <strong>services personnalisés</strong>. Réservez maintenant pour un séjour inoubliable à Hyères.</p>
+          <div class='calendar'>
+            <label>Choisissez vos dates :</label><br>
+            <input type="date"> à <input type="date">
+          </div>
+          <a href="#" class="btn">Réserver maintenant</a>`;
+        listingsContainer.appendChild(listing);
+      }
+    }
+
+    window.onload = generateListings;
+  </script>
+
+</body>
+
+</html>
